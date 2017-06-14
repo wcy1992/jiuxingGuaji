@@ -90,7 +90,7 @@ cc.Class({
     roleAttack:function()
     {
        var  hurt = this.role.attack - this.monster.defend ;
-       hurt = this.monster.hp>hurt ? hurt : this.monster.hp ;
+       hurt = this.monster.hp>hurt + Math.ceil((Math.random()*4)) ? hurt + Math.ceil((Math.random()*4))  : this.monster.hp ;
        hurt = hurt < 0 ? 1 : hurt ;
        this.monster.hp -= hurt ;
        console.log(this.role.name + "使用普攻对"+this.monster.name + "造成"+ hurt + "点伤害!"); 
@@ -105,7 +105,7 @@ cc.Class({
     monsterAttack:function()
     {
         var  hurt = this.monster.attack - this.role.defend ;
-       hurt = this.monster.hp>hurt ? hurt : this.monster.hp ;
+       hurt = this.monster.hp>hurt + Math.ceil((Math.random()*4))  ? hurt + Math.ceil((Math.random()*4))  : this.monster.hp ;
        hurt = hurt < 0 ? 1 : hurt ;
        this.role.hp -= hurt ;
        console.log(this.monster.name + "使用普攻对"+this.role.name + "造成"+ hurt + "点伤害!");

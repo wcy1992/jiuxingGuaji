@@ -29,6 +29,7 @@ cc.Class({
         let logCode = log.getComponent("SingleLog");
         logCode.setData($log);
         this.scrollview.content.addChild(log);
+        this.scrollview.scrollToBottom();
     }
 
     

@@ -44,7 +44,7 @@
     "_position": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": 0
+      "y": 331
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -87,7 +87,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 92.03,
+      "width": 600,
       "height": 50
     },
     "_children": [],
@@ -97,7 +97,7 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 1.4210854715202004e-14,
+      "x": 0,
       "y": 0
     },
     "_skewX": 0,
@@ -132,7 +132,8 @@
     "_N$string": "<color=#00ff00>Rich</c><color=#0fffff>Text</color>",
     "_N$horizontalAlign": 0,
     "_N$fontSize": 24,
-    "_N$maxWidth": 0,
+    "_N$font": null,
+    "_N$maxWidth": 600,
     "_N$lineHeight": 50,
     "_N$imageAtlas": null
   },
@@ -145,8 +146,9 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
+    "_target": null,
     "_alignFlags": 8,
-    "_left": 263.985,
+    "_left": 10,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,
@@ -169,7 +171,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "79205xuhnVD3ozZixNchkEb",
+    "fileId": "a06e4fBKxFHV4tDAU0A8AtV",
     "sync": false
   },
   {
@@ -192,7 +194,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "25022VmVndEAIsiu/zx/4eK",
+    "fileId": "4c069E9nARIeLXoXGBtGqRO",
     "sync": false
   }
 ]
