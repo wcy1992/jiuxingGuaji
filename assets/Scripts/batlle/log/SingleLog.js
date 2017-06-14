@@ -9,9 +9,10 @@ cc.Class({
         }
     },
 
-    
+     
     onLoad: function () {
-
+        this.node.width = cc.winSize.width - 20;
+        this.txt.maxWidth = cc.winSize.width - 40; 
     },
 
     // 

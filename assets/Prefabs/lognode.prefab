@@ -132,7 +132,6 @@
     "_N$string": "<color=#00ff00>Rich</c><color=#0fffff>Text</color>",
     "_N$horizontalAlign": 0,
     "_N$fontSize": 24,
-    "_N$font": null,
     "_N$maxWidth": 600,
     "_N$lineHeight": 50,
     "_N$imageAtlas": null
@@ -146,7 +145,6 @@
     },
     "_enabled": true,
     "isAlignOnce": true,
-    "_target": null,
     "_alignFlags": 8,
     "_left": 10,
     "_right": 0,
@@ -171,7 +169,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "a06e4fBKxFHV4tDAU0A8AtV",
+    "fileId": "152dcR+lQ9JN5lGWdO6PNXw",
     "sync": false
   },
   {
@@ -194,7 +192,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "4c069E9nARIeLXoXGBtGqRO",
+    "fileId": "6d7e0ZLDZhAGoXfsJuIaIqE",
     "sync": false
   }
 ]

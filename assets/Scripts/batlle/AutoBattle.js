@@ -19,21 +19,7 @@ cc.Class({
 
     
     onLoad: function () {
-       this.role = {
-            name:"星选",
-            hp:1000,
-            attack:12,
-            defend:5
-          
-      },
-        this.monster  =
-        {
-            name:"祖魔",
-            hp:2000,
-            attack:10,
-            defend:4
-        },
-        this.battleReset();
+        this.startBattle();
         this.reportCode = this.reportUI.getComponent("BattleReport");
         console.log("战斗开始");
         this.reportCode.appendLog("战斗开始");
@@ -50,13 +36,20 @@ cc.Class({
     //搜索怪物结束开始战斗 //直接开始战斗
     startBattle:function()
     {
-
-
-
-    },
-
-    battleReset:function()
-    {
+        this.role = {
+              name:"星选",
+              hp:1000,
+              attack:12,
+              defend:5
+            
+        },
+          this.monster  =
+          {
+              name:"祖魔",
+              hp:2000,
+              attack:10,
+              defend:4
+          },
         this.currentDownTime = 9 ;
         this.round = 0 ;
         this.secondTimer = 0 ;
@@ -98,7 +91,7 @@ cc.Class({
         if(this.monster.hp < 0)
         {
             console.log(this.monster.name + "被击败，战斗胜利");
-            this.battleReset();
+            this.startBattle();
         }
     },
 
@@ -113,7 +106,7 @@ cc.Class({
         if(this.role.hp < 0)
         {
              console.log(this.role.name + "被击败，战斗失败，大侠请重新再来！");
-             this.battleReset();
+             this.startBattle();
 
         }
    
