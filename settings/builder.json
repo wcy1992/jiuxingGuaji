@@ -1,0 +1,17 @@
+{
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.jiuxingGuaji",
+  "startScene": "ad79da4e-3484-41b9-be2e-55c4ab8cfe45",
+  "title": "jiuxingGuaji",
+  "webOrientation": "portrait"
+}
